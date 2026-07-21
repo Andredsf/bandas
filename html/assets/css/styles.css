@@ -1,0 +1,258 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+@font-face {
+  font-family: 'RobotoCondensed-Regular';
+  src: url('../fonts/RobotoCondensed-Regular.ttf') @ttf;
+}
+@font-face {
+  font-family: 'RobotoCondensed-Bold';
+  src: url('../fonts/RobotoCondensed-Bold.ttf') @ttf;
+}
+@font-face {
+  font-family: 'RobotoCondensed-Light';
+  src: url('../fonts/RobotoCondensed-Light.ttf') @ttf;
+}
+
+body,html {
+  font-family: "Roboto";
+	padding: 0 !important;
+	margin: 0 !important;
+	background-color: #EFEFEF;
+}
+p,h1,h2,h3,div,span,html {
+  font-family: "Roboto";
+
+}
+.carregar {
+	border: 1px solid #23527c;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+	text-decoration: none;
+}
+.rb-cond {
+  font-family: "Roboto";
+
+}
+p,span {
+	margin:0;
+	color: #425A72;
+}
+.faixabranca {
+	background-color: white;    padding-top: 17px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 16px;
+}
+.nome {
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.menubranco {
+	padding-top: 0px;
+	margin-top: -5px;
+	color: white;
+	font-size: 15px;
+}
+.padding {    padding-left: 13px;
+    padding-top: 23px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+.padding2 {    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    padding-right: 15px;
+}
+.padding-sidebar {
+	padding-left: 14px;
+	padding-top: 4px;
+}
+.topo {
+	height: 303px;
+	background-color: black;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.menu {
+	float: left;
+	width: 19.9%;
+	background-color: #24313E;
+	min-height: 2302px;
+}
+.meio {
+	float: left;
+	width: 60.4%;
+	background-color: #EFEFEF;
+	min-height: 2302px;
+}
+.ads {
+	float: left;
+	width: 19.7%;
+	background-color: white;
+	min-height: 2302px;
+	padding-top: 20px !important;
+}
+.menulateral {
+	line-height: 46px;
+}
+.menulateral :hover{
+	background-color: #18212C;
+}
+.menulateral a{
+	border-left: 4px solid #24313E;
+	text-decoration: none;
+	display: block;
+	color: #7E92A5;
+	font-size: 16px;
+}
+.menulateral a:hover{
+	border-left: 4px solid #4EAFE9;
+	color: white;
+}
+.menulateral i{
+	margin-left: 11px;
+	font-size: 20px;
+	width: 30px;
+}
+.menuativo {
+	background-color: #18212C !important;
+}
+.menuativo a{
+	border-left: 4px solid #4EAFE9 !important;
+	color: white !important;
+}
+
+.menulateral2 a{
+	text-decoration: none;
+	display: block;
+	color: white;
+	font-size: 14px;
+	line-height: 37px;
+	padding-left: 14px;
+}
+.menulateral2 a:hover{
+	background-color: #18212C;
+
+}
+.botao {
+	background-color: #4EAFE9;
+    margin-right: 18px;
+    margin-left: 15px;
+    margin-top: 18px;
+    height: 44px;
+
+
+}
+.botao a{
+	display: block;
+	color: white;
+	text-align: center;
+	line-height: 44px;
+
+}
+.botao a:hover{
+	color: #666;
+	text-decoration: none;
+
+}
+.footer {
+	background-color: #171E25;    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 9px;
+    padding-bottom: 11px;
+    margin-bottom: -11px;
+}
+.videos-home {
+	 margin-top: 60px;
+}
+.musicas-home {
+	margin-top: 312px;
+}
+/* VERSÕES MOBILE */
+@media (min-width: 1200px) {
+    .container{
+        width: 1330px;
+    }
+
+}
+@media (min-width: 1400px) {
+    .container{
+        width: 1366px;
+    }
+}
+/* VERSÕES MOBILE */
+@media (max-width: 1200px) {
+    .container{
+        width: 100%;
+    }
+
+    .ads{
+        width: 100%;
+        min-height: auto;
+    }
+    .menu {
+    	display: none;
+    }
+    .menu2 {
+    	display: block !important;
+    	height: 80px;
+		background-color: #24313E;
+		width: 100%;
+		position: fixed;
+		z-index: 15;
+		margin-right: -15px;
+    }
+    .meio {
+    	margin-top: 80px !important;
+    }
+    .row {
+    	padding: 0 !important;
+    	margin: 0 !important;
+    }
+    .menu-celular{
+    	margin-top: 80px;
+    	width: 70%;
+    	margin-left: -70%;
+		background-color: #24313E;
+    	display: block !important;
+    	position: fixed;
+    	padding: 20px;
+    	z-index: 16;
+	opacity:0.95;
+	-moz-opacity: 0.95;
+	filter: alpha(opacity=95);
+
+
+    }
+	.videos-home {
+		 margin-top: 10px;
+	}
+    .meio {
+    	width: 100%;
+    	min-height: auto;
+    }
+
+	.musicas-home {
+		margin-top: 10px;
+	}
+	.menumobile_aberto {
+		-webkit-transition: margin-left 0.2s linear;
+		margin-left: 0 !important;
+
+	}
+	.sumir-mobile {
+		display: none;
+	}
+.padding {
+	padding-left: 0px;
+    padding-top: 23px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+}
+
+}
